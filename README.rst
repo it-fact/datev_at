@@ -28,7 +28,7 @@ DATEV-konformer Export für österreichische Unternehmen in Odoo.
 
 .. image:: static/description/pic1.jpeg
    :alt: App-Auswahl in Odoo
-   :width: 50
+   :scale: 50
 
 ---
 
