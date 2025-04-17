@@ -16,10 +16,6 @@ License
 Odoo Proprietary License v1.0 (OPL-1)  
 https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html#odoo-apps
 
-Price
------
-€ 1200,-
-
 Contact
 -------
 * Email: o@it-fact.com  
