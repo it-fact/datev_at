@@ -1,6 +1,3 @@
-.. image:: https://img.shields.io/badge/license-OPL--1-green.svg
-    :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html#odoo-apps
-    :alt: License: OPL-1
 
 DATEV AT – Export for Austria
 =============================
