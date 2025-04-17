@@ -1,0 +1,25 @@
+<odoo>
+    <!-- There is an issue during install with prod-->
+
+    <record id="view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.datev_at</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="l10n_de_reports.view_partner_form_inherit" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='accounting_entries']" position="inside">
+                <field
+                    name="l10n_de_datev_identifier"
+                    groups="base.group_no_one"
+                    options="{'format': false}"
+                    invisible="'AT' not in fiscal_country_codes"
+                />
+                <field
+                    name="l10n_de_datev_identifier_customer"
+                    groups="base.group_no_one"
+                    options="{'format': false}"
+                    invisible="'AT' not in fiscal_country_codes"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
