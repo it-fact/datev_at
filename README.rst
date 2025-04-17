@@ -10,14 +10,14 @@ DATEV-konformer Export für österreichische Unternehmen in Odoo.
 
 ---
 
-🇩🇪 **Funktionen auf einen Blick**
+🇦🇹 **Funktionen auf einen Blick**
 ----------------------------------
 
-- DATEV-Export im .csv-Format
-- Kompatibel mit RZL und BMD
-- Unterstützung für Kontonummernformate in Österreich
-- Filterbare Exporte (z. B. Journale, Zeiträume)
-- Integration direkt im Hauptbuch
+- Export im DATEV-Format (.csv)
+- Kompatibilität mit RZL & BMD Buchhaltungssystemen
+- Unterstützung österreichischer Kontenrahmen
+- Optionale Längenprüfung für Kontonummern
+- Buchungsstapel-Export für Steuerberatung
 
 ---
 
@@ -50,17 +50,17 @@ DATEV-konformer Export für österreichische Unternehmen in Odoo.
 
 ⚙️ **Zusatzkonfigurationen**
 
-**👤 Personenkonten:**
+**👤 Personenkonten:**  
 Im Kunden- oder Lieferantenformular kannst du unter *Buchhaltung* ein Standardkonto definieren.
 
-**🔢 Kontonummernlängen:**
+**🔢 Kontonummernlängen:**  
 Die gewünschte Länge für Sach-, Debitoren- und Kreditorenkonten kannst du in den Einstellungen anpassen.
 
 .. image:: static/description/pic2.jpeg
    :alt: Kontonummern-Länge
    :width: 800
 
-**🧪 Erweiterte Filter:**
+**🧪 Erweiterte Filter:**  
 Im Developer-Modus lassen sich zusätzliche Filteroptionen aktivieren oder deaktivieren.
 
 .. image:: static/description/pic5.jpeg
