@@ -74,4 +74,7 @@ Im Developer-Modus lassen sich zusätzliche Filteroptionen aktivieren oder deakt
 Wir sind Odoo-Buchhaltungsspezialisten in Österreich.  
 Mit unserer DATEV- und BMD-Schnittstelle, RZL-Integration sowie einer zertifizierten Registrierkassa helfen wir Unternehmen, ihre Buchhaltung effizient zu führen.
 
-Mehr Infos: https://it-fact.com
+Contacts
+--------
+* Mail Contact : o@it-fact.com
+* Website : https://it-fact.com
