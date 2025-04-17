@@ -1,80 +1,47 @@
-DATEV Österreich Schnittstelle – DATEV AT
-=========================================
+.. image:: https://img.shields.io/badge/license-OPL--1-green.svg
+    :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html#odoo-apps
+    :alt: License: OPL-1
 
-DATEV-konformer Export für österreichische Unternehmen in Odoo.
+DATEV AT – Export for Austria
+=============================
+DATEV-compatible export module for Austrian accounting data in Odoo 18.
 
-**Modul:** `datev_at`  
-**Version:** Odoo 18.0  
-**Lizenz:** OPL-1  
-**Preis:** 1200 EUR
+Configuration
+=============
+No specific configuration required.
 
----
+Company
+-------
+* `it-fact GmbH <https://it-fact.com>`__
 
-🇦🇹 **Funktionen auf einen Blick**
-----------------------------------
+License
+-------
+Odoo Proprietary License v1.0 (OPL-1)  
+https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html#odoo-apps
 
-- Export im DATEV-Format (.csv)
-- Kompatibilität mit RZL & BMD Buchhaltungssystemen
-- Unterstützung österreichischer Kontenrahmen
-- Optionale Längenprüfung für Kontonummern
-- Buchungsstapel-Export für Steuerberatung
+Price
+-----
+€ 1200,-
 
----
+Contact
+-------
+* Email: o@it-fact.com  
+* Website: https://it-fact.com
 
-🔧 **Installation**
+Bug Tracker
+-----------
+Bugs are tracked on GitHub Issues.  
+Please check there before reporting new issues.
 
-- Lege das Modul in den Add-on-Pfad
-- Installiere die App über das Odoo Backend
+Maintainer
+==========
+.. image:: https://it-fact.com/logo.png
+   :alt: it-fact logo
+   :target: https://it-fact.com
 
-.. image:: static/description/pic1.jpeg
-   :alt: App-Auswahl in Odoo
-   :scale: 50
+This module is maintained by **it-fact GmbH**.  
+For support and more information, please visit our website.
 
----
-
-🧭 **Bedienung**
-
-1. Navigiere zu **Buchhaltung → Berichtswesen → Hauptbuch**
-2. Wähle Zeitraum und Journale (z. B. AR, ER, BK, ...)
-3. Starte den Export über das Zahnradmenü
-
-.. image:: static/description/pic6.jpeg
-   :alt: Hauptbuch anzeigen
-   :width: 800
-
-.. image:: static/description/pic3.jpeg
-   :alt: Export über Zahnradmenü
-   :width: 800
-
----
-
-⚙️ **Zusatzkonfigurationen**
-
-**👤 Personenkonten:**  
-Im Kunden- oder Lieferantenformular kannst du unter *Buchhaltung* ein Standardkonto definieren.
-
-**🔢 Kontonummernlängen:**  
-Die gewünschte Länge für Sach-, Debitoren- und Kreditorenkonten kannst du in den Einstellungen anpassen.
-
-.. image:: static/description/pic2.jpeg
-   :alt: Kontonummern-Länge
-   :width: 800
-
-**🧪 Erweiterte Filter:**  
-Im Developer-Modus lassen sich zusätzliche Filteroptionen aktivieren oder deaktivieren.
-
-.. image:: static/description/pic5.jpeg
-   :alt: Erweiterte Filter
-   :width: 800
-
----
-
-🏢 Über it-fact GmbH
-
-Wir sind Odoo-Buchhaltungsspezialisten in Österreich.  
-Mit unserer DATEV- und BMD-Schnittstelle, RZL-Integration sowie einer zertifizierten Registrierkassa helfen wir Unternehmen, ihre Buchhaltung effizient zu führen.
-
-Contacts
---------
-* Mail Contact : o@it-fact.com
-* Website : https://it-fact.com
+Further Information
+===================
+German HTML documentation: `<static/description/user_guide_de.html>`__
