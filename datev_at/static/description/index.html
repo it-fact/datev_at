@@ -1,150 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Guide – Datev AT</title>
-  <link rel="icon" type="image/png" href="it-fact-logo-signet.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATEV AT for Austria – it-fact GmbH</title>
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f6f8;
+      background: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
-    header {
-      background-color: #ffffff;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header img {
-      height: 40px;
-      margin-right: 1rem;
-    }
-    header h1 {
-      font-size: 1.5rem;
-      color: #2ecc71;
-      margin: 0;
-      flex-grow: 1;
-    }
-    .lang-button {
-      background-color: #2ecc71;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .lang-button:hover {
-      background-color: #27ae60;
-    }
-    main {
+    .container {
       max-width: 960px;
-      margin: 2rem auto;
-      background-color: #fff;
+      margin: 0 auto;
       padding: 2rem;
-      border-radius: 8px;
+      background: #fff;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    h2, h3 {
+    h1, h2, h3 {
       color: #2c3e50;
     }
     img {
+      display: block;
       max-width: 100%;
       height: auto;
-      margin: 1rem 0;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+      margin: 1.5rem 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
     }
-    nav {
-      background-color: #ecf0f1;
-      padding: 1rem;
-      border-radius: 8px;
+    ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+    .logo {
+      width: 150px;
       margin-bottom: 2rem;
     }
-    nav a {
-      display: block;
-      color: #2980b9;
-      text-decoration: none;
-      margin-bottom: 0.5rem;
+    .highlight {
+      background: #eafaf1;
+      border-left: 4px solid #2ecc71;
+      padding: 1rem;
+      margin-bottom: 2rem;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    code {
-      background: #f1f1f1;
-      padding: 2px 6px;
-      border-radius: 4px;
+    .footer {
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div style="display: flex; align-items: center;">
-      <img src="it-fact-logo-signet.png" alt="it-fact logo">
-      <h1>Datev AT – User Guide</h1>
+  <div class="container">
+    <img src="it-fact-logo-signet.png" alt="it-fact logo" class="logo" />
+
+    <h1>DATEV Export Interface for Austria</h1>
+    <div class="highlight">
+      <strong>Price:</strong> €1200 &nbsp;|&nbsp;
+      <strong>License:</strong> OPL-1 &nbsp;|&nbsp;
+      <strong>Version:</strong> Odoo 18.0
     </div>
-    <a class="lang-button" href="user_guide_de.html">Deutsch 🇦🇹</a>
-  </header>
-  <main>
-    <nav>
-      <strong>Table of Contents</strong>
-      <a href="#installation">🔧 Installation</a>
-      <a href="#usage">🧭 Usage</a>
-      <a href="#configuration">⚙️ Additional Configuration</a>
-    </nav>
 
-    <section id="installation">
-      <h2>🔧 Installation</h2>
-      <p>
-        The <strong>Datev AT</strong> app (<code>datev_at</code>) enables DATEV-compliant export of Austrian bookkeeping from Odoo.
-      </p>
-      <p>
-        Place the files in the add-on path and install the app via the Odoo backend.
-      </p>
-      <img src="pic1.jpeg" alt="App selection in Odoo apps menu">
-    </section>
+    <h2>🇦🇹 Overview</h2>
+    <p>This module enables a standardized DATEV-compatible export of accounting data from Odoo, tailored specifically for the Austrian market.</p>
 
-    <section id="usage">
-      <h2>🧭 Usage</h2>
-      <p>
-        Go to <strong>Accounting → Reporting → General Ledger</strong> to start the export.
-      </p>
-      <img src="pic6.jpeg" alt="Access general ledger via reporting">
-      <p>
-        Select the period and journals (e.g. AR, ER, BK, ...) and start the export via the gear dropdown menu.
-      </p>
-      <img src="pic3.jpeg" alt="Export option in gear dropdown">
-    </section>
+    <h2>🔧 Installation</h2>
+    <ul>
+      <li>Place the module in your Odoo add-ons path.</li>
+      <li>Activate it via the Apps menu.</li>
+    </ul>
+    <img src="pic1.jpeg" alt="App selection" />
 
-    <section id="configuration">
-      <h2>⚙️ Additional Configuration</h2>
+    <h2>🔍 Usage</h2>
+    <p>Go to <strong>Accounting → Reporting → General Ledger</strong>, select the journals and period, and export via the gear menu.</p>
+    <img src="pic6.jpeg" alt="General Ledger" />
+    <img src="pic3.jpeg" alt="Export dropdown" />
 
-      <h3>👤 Partner Accounts</h3>
-      <p>
-        In the customer or vendor form, under <strong>Accounting</strong>, you can set a default receivable or payable account.
-      </p>
-      <img src="pic2.jpeg" alt="Setting account number lengths">
+    <h2>⚙️ Configuration</h2>
+    <p>Optional features include:</p>
+    <ul>
+      <li>Account number length validation</li>
+      <li>Partner account defaults (receivable/payable)</li>
+      <li>Developer mode filters</li>
+    </ul>
+    <img src="pic2.jpeg" alt="Account number config" />
+    <img src="pic5.jpeg" alt="Developer filter options" />
 
-      <h3>🔢 Account Number Length</h3>
-      <p>
-        You can configure the number of digits for chart of accounts, customer, and vendor accounts in the <strong>Settings</strong>.
-      </p>
-      <img src="pic2.jpeg" alt="Define account number lengths">
+    <h2>🏢 Maintained by</h2>
+    <p><strong>it-fact GmbH</strong> – Experts in Austrian Odoo Accounting</p>
+    <p>Website: <a href="https://it-fact.com" target="_blank">https://it-fact.com</a><br />
+    Contact: office@it-fact.com</p>
 
-      <h3>🧪 Filter Options</h3>
-      <p>
-        With Developer Mode activated, you can add or hide extended filters to tailor the export.
-      </p>
-      <img src="pic5.jpeg" alt="Advanced filter options in debug mode">
-    </section>
-  </main>
+    <div class="footer">
+      &copy; it-fact GmbH – All rights reserved. Odoo and the Odoo logo are trademarks of Odoo S.A.
+    </div>
+  </div>
 </body>
 </html>
-
