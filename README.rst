@@ -1,73 +1,77 @@
-DATEV Österreich Schnittstelle / DATEV Austria Export Interface
-===============================================================
+DATEV Österreich Schnittstelle – DATEV AT
+=========================================
 
-**Modulname:** `datev_at`  
-**Kompatibel mit Odoo 18.0 Enterprise**  
+DATEV-konformer Export für österreichische Unternehmen in Odoo.
+
+**Modul:** `datev_at`  
+**Version:** Odoo 18.0  
 **Lizenz:** OPL-1  
-**Preis:** 500 EUR  
+**Preis:** 1200 EUR
 
 ---
 
-🇦🇹 Deutsch
------------
+🇩🇪 **Funktionen auf einen Blick**
+----------------------------------
 
-Diese App ermöglicht einen DATEV-kompatiblen Export der Odoo-Buchhaltung speziell für den österreichischen Markt.
+- DATEV-Export im .csv-Format
+- Kompatibel mit RZL und BMD
+- Unterstützung für Kontonummernformate in Österreich
+- Filterbare Exporte (z. B. Journale, Zeiträume)
+- Integration direkt im Hauptbuch
 
-**Highlights:**
-- Export im DATEV-Format (.csv)
-- Kompatibilität mit RZL & BMD Buchhaltungssystemen
-- Unterstützung österreichischer Kontenrahmen
-- Optionale Längenprüfung für Kontonummern
-- Buchungsstapel-Export für Steuerberatung
+---
 
-**Screenshots:**
+🔧 **Installation**
+
+- Lege das Modul in den Add-on-Pfad
+- Installiere die App über das Odoo Backend
 
 .. image:: static/description/pic1.jpeg
-   :width: 800
    :alt: App-Auswahl in Odoo
-
-.. image:: static/description/pic3.jpeg
    :width: 800
-   :alt: Export aus dem Hauptbuch
-
-.. image:: static/description/pic2.jpeg
-   :width: 800
-   :alt: Konfiguration Kontonummern
-
-**Über uns:**
-
-IT-FACT GmbH ist spezialisiert auf die Einführung und Anpassung von Odoo in Österreich – inklusive zertifizierter Registrierkassa, DATEV-, RZL- und BMD-Schnittstellen.  
-Website: https://it-fact.com
 
 ---
 
-🇬🇧 English
-----------
+🧭 **Bedienung**
 
-This app provides a DATEV-compliant export for Austrian accounting with Odoo.
+1. Navigiere zu **Buchhaltung → Berichtswesen → Hauptbuch**
+2. Wähle Zeitraum und Journale (z. B. AR, ER, BK, ...)
+3. Starte den Export über das Zahnradmenü
 
-**Key Features:**
-- Export to DATEV CSV format
-- Compatible with RZL and BMD accounting systems
-- Austrian chart of accounts support
-- Account number length configuration
-- Journal entry export for tax advisors
-
-**Screenshots:**
-
-.. image:: static/description/pic1.jpeg
+.. image:: static/description/pic6.jpeg
+   :alt: Hauptbuch anzeigen
    :width: 800
-   :alt: App selection in Odoo
 
 .. image:: static/description/pic3.jpeg
+   :alt: Export über Zahnradmenü
    :width: 800
-   :alt: Export from general ledger
+
+---
+
+⚙️ **Zusatzkonfigurationen**
+
+**👤 Personenkonten:**
+Im Kunden- oder Lieferantenformular kannst du unter *Buchhaltung* ein Standardkonto definieren.
+
+**🔢 Kontonummernlängen:**
+Die gewünschte Länge für Sach-, Debitoren- und Kreditorenkonten kannst du in den Einstellungen anpassen.
 
 .. image:: static/description/pic2.jpeg
+   :alt: Kontonummern-Länge
    :width: 800
-   :alt: Account number configuration
 
-**About IT-FACT:**
+**🧪 Erweiterte Filter:**
+Im Developer-Modus lassen sich zusätzliche Filteroptionen aktivieren oder deaktivieren.
 
-We are experts in Odoo finance & accounting in Austria, with ready-to-use interfaces for DATEV, BMD, RZL, and a fully compliant cash register system.  
-More at: https://it-fact.com
+.. image:: static/description/pic5.jpeg
+   :alt: Erweiterte Filter
+   :width: 800
+
+---
+
+🏢 Über IT-FACT GmbH
+
+Wir sind Odoo-Buchhaltungsspezialisten in Österreich.  
+Mit unserer DATEV- und BMD-Schnittstelle, RZL-Integration sowie einer zertifizierten Registrierkassa helfen wir Unternehmen, ihre Buchhaltung effizient zu führen.
+
+Mehr Infos: https://it-fact.com
